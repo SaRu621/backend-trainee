@@ -6,5 +6,8 @@
 
 ### Запуск приложения
 ```console
-go run cmd/main.go
+git clone https://github.com/SaRu621/backend-trainee.git
+cd backend-trainee
+cd Avito
+docker-compose up --build
 ```
