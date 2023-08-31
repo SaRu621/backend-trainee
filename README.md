@@ -1,6 +1,9 @@
 # backend-trainee
 
-Тестовое задание для стажировки в avito-tech 2023, направление backend.
+Тестовое задание для стажировки в avito-tech 2023, направление backend. 
+
+Приложение работает на порту 9000.
+В файле **config.go** содержатся настройки роутера и базы данных. Также, в этом файле  находится параметр Users, который определяет количество пользователей (автоматическое добавление пользователей в сегмент).
 
 ##  Как использовать приложение
 
@@ -97,3 +100,15 @@ curl -X "GET" "http://localhost:9000/report/"
 ```console
 curl -X "DELETE" "http://localhost:9000/report/"
 ```
+## Зависимости
+
+- [gin](https://github.com/gin-gonic/gin) - HTTP web фреймворк
+  
+- [pq](https://github.com/lib/pq) - Postgres драйвер
+
+## Инструменты
+- [Golang](https://go.dev/) - язык программирования
+  
+- [Postgres](https://www.postgresql.org/) - база данных
+
+- [docker](https://www.docker.com/) - технология виртуализации
