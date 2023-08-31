@@ -92,3 +92,8 @@ curl -X "GET" "http://localhost:9000/report/"
     "501,AVITO_SEG_3,deleted,2023-08-30 13:42:16 "
 ]
 ```
+### Удаление всех csv-таблиц:
+
+```console
+curl -X "DELETE" "http://localhost:9000/report/"
+```
